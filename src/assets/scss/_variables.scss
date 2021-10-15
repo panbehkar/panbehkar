@@ -1,0 +1,62 @@
+// media query
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+// main
+$margin: 20px;
+$radius: 7px;
+$font-family-primary: Nunito;
+$font-family-secondary: Vollkorn;
+$font-size-lg: 2.5rem;
+$font-size-md: 2rem;
+$font-size-sm: 1.5rem;
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$line-height: 1.5;
+$color-primary: #4596fb;
+$color-secondary: #57f2cc;
+$color-black: #000000;
+$color-white: #ffffff;
+$background-light: #f5f5f5;
+$background-dark: #37474f;
+$text-light: #fafafa;
+$text-dark: #37474f;
+$text-grey: #b0bec5;
+
+$z-index: (
+  //
+  header: 800,
+  overlay: 900,
+  content: 700,
+  footer: 800
+);
+
+$gradient: (
+  //
+  tag: linear-gradient(to top right, $color-primary, $color-secondary)
+);
+
+$shadow: (
+  //
+  box: 2px 2px 10px -4px rgba(0, 0, 0, 0.1),
+  tag: 3px 3px 7px -1px rgba(0, 0, 0, 0.1)
+);
+
+// header
+$header-logo: 60px;
+
+// home
+$home-avatar-lg: 375px;
+$home-avatar-sm: 275px;
+
+// blog
+$blog-thumbnail: 200px;
+
+// post
+$post-avatar: 50px;
+
+// not-found
+$not-found-image: 400px;

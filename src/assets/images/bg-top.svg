@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="bg-header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 274" style="enable-background:new 0 0 800 274;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.6;fill:url(#wave2_1_);}
+	.st1{opacity:0.3;fill:url(#wave_2_);}
+	.st2{fill:url(#wave_3_);}
+</style>
+<linearGradient id="wave2_1_" gradientUnits="userSpaceOnUse" x1="406" y1="255.2976" x2="406" y2="11">
+	<stop  offset="0" style="stop-color:#57F2CC"/>
+	<stop  offset="0.2035" style="stop-color:#56EECE"/>
+	<stop  offset="0.4144" style="stop-color:#54E1D4"/>
+	<stop  offset="0.6286" style="stop-color:#50CDDF"/>
+	<stop  offset="0.8439" style="stop-color:#4AB0EE"/>
+	<stop  offset="1" style="stop-color:#4596FB"/>
+</linearGradient>
+<path id="wave2" class="st0" d="M6,11c14,54,90,162,248,143c174.68-21.01,247-38,313,29c79.79,81,239,72,239,72s0-133.33,0-244
+	C472.67,11,339.33,11,6,11z"/>
+<linearGradient id="wave_2_" gradientUnits="userSpaceOnUse" x1="431" y1="274.2976" x2="431" y2="30">
+	<stop  offset="0" style="stop-color:#57F2CC"/>
+	<stop  offset="0.2035" style="stop-color:#56EECE"/>
+	<stop  offset="0.4144" style="stop-color:#54E1D4"/>
+	<stop  offset="0.6286" style="stop-color:#50CDDF"/>
+	<stop  offset="0.8439" style="stop-color:#4AB0EE"/>
+	<stop  offset="1" style="stop-color:#4596FB"/>
+</linearGradient>
+<path id="wave_1_" class="st1" d="M31,30c14,54,90,162,248,143c174.68-21.01,247-38,313,29c79.79,81,239,72,239,72s0-133.33,0-244
+	C497.67,30,364.33,30,31,30z"/>
+<linearGradient id="wave_3_" gradientUnits="userSpaceOnUse" x1="400" y1="244.2976" x2="400" y2="0">
+	<stop  offset="0" style="stop-color:#57F2CC"/>
+	<stop  offset="0.2035" style="stop-color:#56EECE"/>
+	<stop  offset="0.4144" style="stop-color:#54E1D4"/>
+	<stop  offset="0.6286" style="stop-color:#50CDDF"/>
+	<stop  offset="0.8439" style="stop-color:#4AB0EE"/>
+	<stop  offset="1" style="stop-color:#4596FB"/>
+</linearGradient>
+<path id="wave" class="st2" d="M0,0c14,54,90,162,248,143c174.68-21.01,247-38,313,29c79.79,81,239,72,239,72s0-133.33,0-244
+	C466.67,0,333.33,0,0,0z"/>
+</svg>

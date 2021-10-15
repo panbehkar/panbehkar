@@ -1,0 +1,12 @@
+.footer {
+  @include box(100%, auto);
+  padding: $margin;
+  color: $text-light;
+  display: flex;
+  align-items: center;
+  z-index: z-index(footer);
+
+  b {
+    color: $text-dark;
+  }
+}

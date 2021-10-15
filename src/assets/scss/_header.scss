@@ -1,0 +1,118 @@
+.header {
+  @include box(100%, auto);
+  padding: $margin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: z-index(header);
+
+  @include mQ($sm) {
+    z-index: z-index(overlay);
+  }
+
+  .logo {
+    @include box($header-logo);
+
+    img {
+      @include box($header-logo);
+    }
+  }
+
+  .nav {
+    @include mQ($sm) {
+      display: none;
+    }
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          color: $text-light;
+          padding: 10px;
+
+          &.active {
+            color: $text-dark;
+          }
+        }
+      }
+    }
+  }
+
+  .overlay {
+    @include position(fixed, 0, auto, auto, 0);
+    @include box(100vw, 100vh);
+    display: flex;
+    flex-direction: column;
+    @include rgba(bg, $color-black, 0.9);
+    @include transition(transform);
+    transform-origin: top left;
+    transform: scale(1, 0);
+
+    &.open {
+      transform: scale(1, 1);
+    }
+  }
+
+  .hamburger-menu {
+    color: $text-light;
+    display: flex;
+
+    i {
+      font-size: $font-size-lg;
+    }
+  }
+
+  .hamburger-close {
+    padding: $margin $margin 0;
+    color: $text-light;
+    display: flex;
+    justify-content: flex-end;
+
+    i {
+      font-size: $font-size-md;
+    }
+  }
+
+  .nav-mobile {
+    display: none;
+
+    @include mQ($sm) {
+      display: block;
+    }
+
+    ul {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-bottom: $margin;
+
+        a {
+          display: block;
+          position: relative;
+          color: $text-light;
+
+          &::after {
+            content: "";
+            @include position(absolute, auto, auto, 0, 0);
+            @include box(0, 2px);
+            background-color: $text-light;
+            @include transition(width);
+          }
+
+          &:hover::after {
+            width: 100%;
+          }
+
+          &.active::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
