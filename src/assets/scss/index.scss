@@ -47,39 +47,45 @@ body {
   position: relative;
   overflow: hidden;
 
-  &::before {
-    content: "";
+  .bg-top {
     @include position(absolute, 0, 0, auto, auto);
-    @include box(60%, 300px);
-    background-image: url("../images/bg-top.svg");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: contain;
+    width: 60%;
 
-    @include mQ($sm) {
+    @include mQ($md) {
       width: 70%;
     }
 
-    @include mQ($xs) {
+    @include mQ($sm) {
       width: 80%;
+    }
+
+    .gatsby-image-wrapper {
+      width: 100%;
+
+      & > div {
+        max-width: initial !important;
+      }
     }
   }
 
-  &::after {
-    content: "";
+  .bg-bottom {
     @include position(absolute, auto, auto, 0, 0);
-    @include box(70%, 300px);
-    background-image: url("../images/bg-bottom.svg");
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: contain;
+    width: 60%;
 
-    @include mQ($sm) {
-      width: 75%;
+    @include mQ($md) {
+      width: 70%;
     }
 
-    @include mQ($xs) {
+    @include mQ($sm) {
       width: 100%;
+    }
+
+    .gatsby-image-wrapper {
+      width: 100%;
+
+      & > div {
+        max-width: initial !important;
+      }
     }
   }
 
