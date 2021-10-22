@@ -2,8 +2,9 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import ogImage from "../assets/images/og-image.jpg"
 
-const Seo = ({ description, lang, meta, title }) => {
+const Seo = ({ title, keywords, description, image, url, lang, meta }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -13,17 +14,18 @@ const Seo = ({ description, lang, meta, title }) => {
             description
             keywords
             author
-            image
+            siteUrl
           }
         }
       }
     `
   )
 
+  const metaKeywords = keywords || site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
-  const keywords = site.siteMetadata.keywords
-  const image = site.siteMetadata.image
-  const defaultTitle = site.siteMetadata?.title
+  const metaImage = image || `${site.siteMetadata.siteUrl}${ogImage}`
+  const metaUrl = `${site.siteMetadata.siteUrl}${url || ""}`
+  const defaultTitle = site.siteMetadata.title
 
   return (
     <Helmet
@@ -34,19 +36,11 @@ const Seo = ({ description, lang, meta, title }) => {
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
           name: `keywords`,
-          content: keywords,
+          content: metaKeywords,
         },
         {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
+          name: `description`,
           content: metaDescription,
         },
         {
@@ -54,25 +48,40 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          property: `og:image`,
-          content: image,
-        },
-
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
+          property: `og:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
+          property: `og:image`,
+          content: metaImage,
+        },
+        {
+          property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:url`,
+          content: metaUrl,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary_large_image`,
+        },
+        {
+          property: `twitter:title`,
+          content: title,
+        },
+        {
+          property: `twitter:image`,
+          content: metaImage,
+        },
+        {
+          property: `twitter:description`,
+          content: metaDescription,
+        },
+        {
+          property: `twitter:url`,
+          content: metaUrl,
         },
       ].concat(meta)}
     />
@@ -82,12 +91,16 @@ const Seo = ({ description, lang, meta, title }) => {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
+  keywords: ``,
   description: ``,
+  image: ``,
+  url: ``,
 }
 
 Seo.propTypes = {
+  keywords: PropTypes.string,
   description: PropTypes.string,
-  image: PropTypes.string,
+  author: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,

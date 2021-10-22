@@ -15,7 +15,7 @@ export const query = graphql`
         excerpt
         createdAt(fromNow: true)
         thumbnail {
-          gatsbyImageData(height: 200)
+          gatsbyImageData(height: 300)
         }
       }
     }

@@ -6,7 +6,6 @@ module.exports = {
     description: `A creative and adaptable Front-End Developer with 4+ years experience in the design and development of more than 10 admin panels within professional teams.`,
     keywords: `abolfazl panbehkar, abolfazl, panbehkar, front-end developer, frontend developer, front-end, frontend, developer`,
     author: `Abolfazl Panbehkar`,
-    image: `src/assets/images/avatar.png`,
     siteUrl: `https://panbehkar.com`,
   },
   plugins: [
@@ -19,7 +18,9 @@ module.exports = {
       options: {
         defaults: {
           placeholder: `blurred`,
+          quality: 80,
         },
+        defaultQuality: 80,
       },
     },
     {

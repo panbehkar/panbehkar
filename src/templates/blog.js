@@ -18,6 +18,9 @@ export const query = graphql`
       createdAt(fromNow: true)
       thumbnail {
         gatsbyImageData
+        fluid {
+          src
+        }
       }
       author {
         name
@@ -27,7 +30,8 @@ export const query = graphql`
         }
       }
       seo {
-        title
+        keywords
+        description
       }
       body {
         raw
@@ -79,7 +83,13 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={post.title} />
+      <Seo
+        title={post.title}
+        keywords={post.seo.keywords}
+        description={post.seo.description}
+        image={post.thumbnail.fluid.src}
+        url={post.slug}
+      />
       <div className="post">
         <div className="row">
           <div className="column-1">
