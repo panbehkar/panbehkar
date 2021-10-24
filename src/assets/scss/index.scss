@@ -102,7 +102,7 @@ body {
   }
 
   .content-lg {
-    width: $lg;
+    width: $lg - ($margin * 2);
 
     @include mQ($lg) {
       width: 100%;
@@ -110,7 +110,7 @@ body {
   }
 
   .content-md {
-    width: $md;
+    width: $md - ($margin * 2);
 
     @include mQ($md) {
       width: 100%;
@@ -403,15 +403,36 @@ body {
   flex-direction: column;
   @extend .content-md;
 
-  .heading {
-    width: 100%;
-    font-family: $font-family-secondary;
-    font-size: $font-size-lg;
-    font-weight: $font-weight-bold;
-    margin-bottom: $margin;
+  .blog-info {
+    .heading {
+      width: 100%;
+      font-family: $font-family-secondary;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+      margin-bottom: $margin;
+    }
+
+    .thumbnail {
+      display: flex;
+      justify-content: center;
+      margin-bottom: $margin;
+
+      img {
+        border-radius: $radius;
+      }
+    }
+
+    .excerpt {
+      text-align: justify;
+      color: rgba($text-dark, 0.66);
+      margin-bottom: $margin;
+    }
   }
 
   .body {
+    display: flex;
+    flex-direction: column;
+
     .body-text {
       text-align: justify;
     }
@@ -428,58 +449,74 @@ body {
       background: $background-light !important;
       padding: $margin !important;
       border-radius: $radius;
-    }
-
-    .body-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: $font-size-md - 0.3;
+      font-size: $font-size-md - 0.2;
     }
 
     .body-text,
     .body-image,
-    .body-code,
-    .body-info {
+    .body-code {
       margin: 0 0 $margin 0;
     }
 
     .body-text,
     .body-image,
-    .body-code,
-    .body-info {
+    .body-code {
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
 
-  .post-author {
+  .post-info {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $font-size-sm;
 
-    .author-avatar {
-      @include box($post-avatar);
-      border-radius: 50%;
-      overflow: hidden;
-    }
-    .author-name-description {
-      display: flex;
+    @include mQ($xs) {
       flex-direction: column;
-      margin-left: $margin;
+    }
 
-      .author-name {
-        font-weight: bold;
+    .author {
+      display: flex;
+
+      @include mQ($xs) {
+        width: 100%;
+        text-align: left;
+        margin-bottom: $margin;
       }
 
-      .author-description {
-        color: $text-grey;
+      .author-avatar {
+        @include box($post-avatar);
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .author-name-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: $margin;
+
+        .author-name {
+          font-weight: bold;
+        }
+
+        .author-description {
+          color: $text-grey;
+        }
       }
     }
-  }
 
-  .post-create-time {
-    font-weight: $font-weight-bold;
-    color: $text-grey;
+    .create-time {
+      font-weight: $font-weight-bold;
+      color: $text-grey;
+
+      @include mQ($xs) {
+        width: 100%;
+        text-align: right;
+      }
+    }
   }
 
   .back-to-archive {
@@ -498,6 +535,7 @@ body {
     }
   }
 }
+
 // #endregion
 
 // #region not-found
@@ -536,4 +574,5 @@ body {
     }
   }
 }
+
 // #endregion

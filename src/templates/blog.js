@@ -3,8 +3,8 @@ import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS } from "@contentful/rich-text-types"
-import { arduinoLight } from "react-syntax-highlighter/dist/esm/styles/hljs"
 import SyntaxHighlighter from "react-syntax-highlighter"
+import { arduinoLight } from "react-syntax-highlighter/dist/esm/styles/hljs"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -15,6 +15,7 @@ export const query = graphql`
       id
       slug
       title
+      excerpt
       createdAt(fromNow: true)
       thumbnail {
         gatsbyImageData
@@ -48,24 +49,37 @@ const Blog = ({ data }) => {
 
   const options = {
     renderNode: {
-      [BLOCKS.PARAGRAPH]: (node, children) => {
-        if (children[0].type === "code")
-          return (
-            <SyntaxHighlighter
-              language="javascript"
-              className="body-code"
-              style={arduinoLight}
-              wrapLines
-              wrapLongLines
-            >
-              {children[0].props.children}
-            </SyntaxHighlighter>
-          )
-        else {
-          return children[0] !== "" ? (
-            <div className="body-text">{node.content[0].value}</div>
-          ) : null
-        }
+      [BLOCKS.PARAGRAPH]: node => {
+        return node.content.map((item, index) => {
+          const type = item.marks[0]?.type
+          switch (type) {
+            case "code":
+              return (
+                <SyntaxHighlighter
+                  language="javascript"
+                  className="body-code"
+                  style={arduinoLight}
+                  wrapLines
+                  wrapLongLines
+                  key={index}
+                >
+                  {item.value}
+                </SyntaxHighlighter>
+              )
+            case "bold":
+              return (
+                <div className="body-text" key={index}>
+                  <b>{item.value}</b>
+                </div>
+              )
+            default:
+              return (
+                <div className="body-text" key={index}>
+                  {item.value}
+                </div>
+              )
+          }
+        })
       },
       [BLOCKS.EMBEDDED_ASSET]: node => {
         const nodeId = node.data.target.sys.id
@@ -94,32 +108,35 @@ const Blog = ({ data }) => {
         <div className="row">
           <div className="column-1">
             <div className="box">
-              <label className="heading">{post.title}</label>
-              <div className="body">
-                <div className="body-image">
+              <div className="blog-info">
+                <label className="heading">{post.title}</label>
+                <div className="thumbnail">
                   <GatsbyImage
                     image={post.thumbnail.gatsbyImageData}
                     alt={post.slug}
                   />
                 </div>
+                <div className="excerpt">{post.excerpt}</div>
+              </div>
+              <div className="body">
                 {documentToReactComponents(JSON.parse(post.body.raw), options)}
-                <div className="body-info">
-                  <div className="post-author">
-                    <span className="author-avatar">
-                      <GatsbyImage
-                        image={post.author.avatar.gatsbyImageData}
-                        alt={post.author.name}
-                      />
+              </div>
+              <div className="post-info">
+                <div className="author">
+                  <span className="author-avatar">
+                    <GatsbyImage
+                      image={post.author.avatar.gatsbyImageData}
+                      alt={post.author.name}
+                    />
+                  </span>
+                  <div className="author-name-description">
+                    <span className="author-name">{post.author.name}</span>
+                    <span className="author-description">
+                      {post.author.description}
                     </span>
-                    <div className="author-name-description">
-                      <span className="author-name">{post.author.name}</span>
-                      <span className="author-description">
-                        {post.author.description}
-                      </span>
-                    </div>
                   </div>
-                  <span className="post-create-time">{post.createdAt}</span>
                 </div>
+                <span className="create-time">{post.createdAt}</span>
               </div>
             </div>
           </div>
