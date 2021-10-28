@@ -54,9 +54,10 @@ const Blog = ({ data }) => {
           const type = item.marks[0]?.type
           switch (type) {
             case "code":
+              const lang = item.value.includes(":root") ? "css" : "javascript"
               return (
                 <SyntaxHighlighter
-                  language="javascript"
+                  language={lang}
                   className="body-code"
                   style={arduinoLight}
                   wrapLines
@@ -95,6 +96,30 @@ const Blog = ({ data }) => {
     },
   }
 
+  const bodyRaw = JSON.parse(post.body.raw)
+
+  // Bug fix: contentful code render new issue
+  const adaptor = rawContent => {
+    const newContent = []
+
+    rawContent.forEach(item => {
+      const newLength = newContent.length
+      const isPrevCode =
+        newContent[newLength - 1]?.content[0]?.marks[0]?.type === "code"
+      const isCurrentCode = item.content[0]?.marks[0]?.type === "code"
+
+      if (isCurrentCode && isPrevCode) {
+        newContent[newLength - 1].content[0].value +=
+          "\n" + item.content[0].value
+      } else {
+        newContent.push(item)
+      }
+    })
+
+    return newContent
+  }
+  bodyRaw.content = adaptor(bodyRaw.content)
+
   return (
     <Layout>
       <Seo
@@ -109,7 +134,7 @@ const Blog = ({ data }) => {
           <div className="column-1">
             <div className="box">
               <div className="blog-info">
-                <label className="heading">{post.title}</label>
+                <div className="heading">{post.title}</div>
                 <div className="thumbnail">
                   <GatsbyImage
                     image={post.thumbnail.gatsbyImageData}
@@ -119,7 +144,7 @@ const Blog = ({ data }) => {
                 <div className="excerpt">{post.excerpt}</div>
               </div>
               <div className="body">
-                {documentToReactComponents(JSON.parse(post.body.raw), options)}
+                {documentToReactComponents(bodyRaw, options)}
               </div>
               <div className="post-info">
                 <div className="author">
