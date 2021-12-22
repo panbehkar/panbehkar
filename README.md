@@ -17,34 +17,37 @@
   <a href="https://join.skype.com/invite/EBdpwueVsrJ4" target="_blank"><img align="center" alt="Skype" height="35" width="45" src="src/assets/readme/Skype.svg" /></a>
 </p>
 
-### Languages and Tools:
+<h3 align="left">Languages and Tools:</h3>
 
-[![HTML](src/assets/readme/HTML.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML "HTML-icon")
-[![CSS](src/assets/readme/CSS.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS-icon")
-[![Sass](src/assets/readme/Sass.svg)](https://sass-lang.com "Sass-icon")
-[![Emotion](src/assets/readme/Emotion.png)](https://emotion.sh/docs/introduction "Emotion-icon")
-[![Bootstrap](src/assets/readme/Bootstrap.svg)](https://getbootstrap.com "Bootstrap-icon")
-[![Material-UI](src/assets/readme/Material-UI.svg)](https://mui.com "Material-UI-icon")
-[![JavaScript](src/assets/readme/JavaScript.svg)](https://javascript.com "JavaScript-icon")
-[![TypeScript](src/assets/readme/TypeScript.svg)](https://typescriptlang.org "TypeScript-icon")
-[![React](src/assets/readme/React.svg)](https://reactjs.org "React-icon")
-[![Redux](src/assets/readme/Redux.svg)](https://redux.js.org "Redux-icon")
-[![Gatsby](src/assets/readme/Gatsby.svg)](https://gatsbyjs.com "Gatsby-icon")
-[![Webpack](src/assets/readme/Webpack.svg)](https://webpack.js.org "Webpack-icon")
-[![Storybook](src/assets/readme/Storybook.svg)](https://storybook.js.org "Storybook-icon")
-[![Jest](src/assets/readme/Jest.svg)](https://jestjs.io "Jest-icon")
-[![Testing Library](src/assets/readme/Testing-Library.png)](https://testing-library.com/docs/react-testing-library/intro "Testing Library-icon")
-[![Sentry](src/assets/readme/Sentry.svg)](https://sentry.io "Sentry-icon")
-[![REST API](src/assets/readme/REST-API.png)](https://axios-http.com "REST API-icon")
-[![Git](src/assets/readme/Git.svg)](https://git-scm.com "Git-icon")
-[![Scrum](src/assets/readme/Scrum.png)](https://scrum.org "Scrum-icon")
-[![UI / UX](src/assets/readme/UI-UX.svg)](https://dribbble.com "UI / UX-icon")
-[![Adobe XD](src/assets/readme/Adobe-XD.svg)](https://adobe.com/products/xd "Adobe XD-icon")
-[![Photoshop](src/assets/readme/Photoshop.svg)](https://adobe.com/products/photoshop "Photoshop-icon")
-[![Illustrator](src/assets/readme/Illustrator.svg)](https://adobe.com/products/illustrator "Illustrator-icon")
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img align="center" alt="HTML" height="35" width="45" src="src/assets/readme/HTML.svg" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img align="center" alt="CSS" height="35" width="45" src="src/assets/readme/CSS.svg" /></a>
+  <a href="https://sass-lang.com" target="_blank" rel="noreferrer"><img align="center" alt="Sass" height="35" width="45" src="src/assets/readme/Sass.svg" /></a>
+  <a href="https://emotion.sh/docs/introduction" target="_blank" rel="noreferrer"><img align="center" alt="Emotion" height="35" width="45" src="src/assets/readme/Emotion.svg" /></a>
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img align="center" alt="Bootstrap" height="35" width="45" src="src/assets/readme/Bootstrap.svg" /></a>
+  <a href="https://mui.com" target="_blank" rel="noreferrer"><img align="center" alt="Material-UI" height="35" width="45" src="src/assets/readme/Material-UI.svg" /></a>
+  <a href="https://javascript.com" target="_blank" rel="noreferrer"><img align="center" alt="JavaScript" height="35" width="45" src="src/assets/readme/JavaScript.svg" /></a>
+  <a href="https://typescriptlang.org" target="_blank" rel="noreferrer"><img align="center" alt="TypeScript" height="35" width="45" src="src/assets/readme/TypeScript.svg" /></a>
+  <a href="https://reactjs.org" target="_blank" rel="noreferrer"><img align="center" alt="React" height="35" width="45" src="src/assets/readme/React.svg" /></a>
+  <a href="https://redux.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Redux" height="35" width="45" src="src/assets/readme/Redux.svg" /></a>
+  <a href="https://gatsbyjs.com" target="_blank" rel="noreferrer"><img align="center" alt="Gatsby" height="35" width="45" src="src/assets/readme/Gatsby.svg" /></a>
+  <a href="https://webpack.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Webpack" height="35" width="45" src="src/assets/readme/Webpack.svg" /></a>
+  <a href="https://storybook.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Storybook" height="35" width="45" src="src/assets/readme/Storybook.svg" /></a>
+  <a href="https://jestjs.io" target="_blank" rel="noreferrer"><img align="center" alt="Jest" height="35" width="45" src="src/assets/readme/Jest.svg" /></a>
+  <a href="https://testing-library.com/docs/react-testing-library/intro" target="_blank" rel="noreferrer"><img align="center" alt="Testing Library" height="35" width="45" src="src/assets/readme/Testing-Library.svg" /></a>
+  <a href="https://sentry.io" target="_blank" rel="noreferrer"><img align="center" alt="Sentry" height="35" width="45" src="src/assets/readme/Sentry.svg" /></a>
+  <a href="https://axios-http.com" target="_blank" rel="noreferrer"><img align="center" alt="REST API" height="35" width="45" src="src/assets/readme/REST-API.svg" /></a>
+  <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img align="center" alt="Git" height="35" width="45" src="src/assets/readme/Git.svg" /></a>
+  <a href="https://scrum.org" target="_blank" rel="noreferrer"><img align="center" alt="Scrum" height="35" width="45" src="src/assets/readme/Scrum.svg" /></a>
+  <a href="https://dribbble.com" target="_blank" rel="noreferrer"><img align="center" alt="UI / UX" height="35" width="45" src="src/assets/readme/UI-UX.svg" /></a>
+  <a href="https://adobe.com/products/xd" target="_blank" rel="noreferrer"><img align="center" alt="Adobe XD" height="35" width="45" src="src/assets/readme/Adobe-XD.svg" /></a>
+  <a href="https://adobe.com/products/photoshop" target="_blank" rel="noreferrer"><img align="center" alt="Photoshop" height="35" width="45" src="src/assets/readme/Photoshop.svg" /></a>
+  <a href="https://adobe.com/products/illustrator" target="_blank" rel="noreferrer"><img align="center" alt="Illustrator" height="35" width="45" src="src/assets/readme/Illustrator.svg" /></a>
+</p>
 
-### GitHub Stats:
+<h3 align="left">GitHub Stats:</h3>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=panbehkar&show_icons=true&title_color=4596fb&text_color=37474f&bg_color=f5f5f5&icon_color=57f2cc&hide_border=true&border_radius=15&locale=en)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=panbehkar&show_icons=true&title_color=4596fb&text_color=37474f&bg_color=f5f5f5&icon_color=57f2cc&hide_border=true&border_radius=15&locale=en&layout=compact)
+<p align="center">
+  <img align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=panbehkar&show_icons=true&title_color=4596fb&text_color=37474f&bg_color=f5f5f5&icon_color=57f2cc&hide_border=true&border_radius=15&locale=en" />
+  <img align="center" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=panbehkar&show_icons=true&title_color=4596fb&text_color=37474f&bg_color=f5f5f5&icon_color=57f2cc&hide_border=true&border_radius=15&locale=en&layout=compact" />
+</p>
