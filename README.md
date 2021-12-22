@@ -23,7 +23,7 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img align="center" alt="HTML" height="35" width="45" src="src/assets/readme/HTML.svg" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img align="center" alt="CSS" height="35" width="45" src="src/assets/readme/CSS.svg" /></a>
   <a href="https://sass-lang.com" target="_blank" rel="noreferrer"><img align="center" alt="Sass" height="35" width="45" src="src/assets/readme/Sass.svg" /></a>
-  <a href="https://emotion.sh/docs/introduction" target="_blank" rel="noreferrer"><img align="center" alt="Emotion" height="35" width="45" src="src/assets/readme/Emotion.png" /></a>
+  <a href="https://emotion.sh/docs/introduction" target="_blank" rel="noreferrer"><img align="center" alt="Emotion" height="35" width="35" src="src/assets/readme/Emotion.png" /></a>
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img align="center" alt="Bootstrap" height="35" width="45" src="src/assets/readme/Bootstrap.svg" /></a>
   <a href="https://mui.com" target="_blank" rel="noreferrer"><img align="center" alt="Material-UI" height="35" width="45" src="src/assets/readme/Material-UI.svg" /></a>
   <a href="https://javascript.com" target="_blank" rel="noreferrer"><img align="center" alt="JavaScript" height="35" width="45" src="src/assets/readme/JavaScript.svg" /></a>
@@ -34,11 +34,11 @@
   <a href="https://webpack.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Webpack" height="35" width="45" src="src/assets/readme/Webpack.svg" /></a>
   <a href="https://storybook.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Storybook" height="35" width="45" src="src/assets/readme/Storybook.svg" /></a>
   <a href="https://jestjs.io" target="_blank" rel="noreferrer"><img align="center" alt="Jest" height="35" width="45" src="src/assets/readme/Jest.svg" /></a>
-  <a href="https://testing-library.com/docs/react-testing-library/intro" target="_blank" rel="noreferrer"><img align="center" alt="Testing Library" height="35" width="45" src="src/assets/readme/Testing-Library.png" /></a>
+  <a href="https://testing-library.com/docs/react-testing-library/intro" target="_blank" rel="noreferrer"><img align="center" alt="Testing Library" height="35" width="35" src="src/assets/readme/Testing-Library.png" /></a>
   <a href="https://sentry.io" target="_blank" rel="noreferrer"><img align="center" alt="Sentry" height="35" width="45" src="src/assets/readme/Sentry.svg" /></a>
-  <a href="https://axios-http.com" target="_blank" rel="noreferrer"><img align="center" alt="REST API" height="35" width="45" src="src/assets/readme/REST-API.png" /></a>
+  <a href="https://axios-http.com" target="_blank" rel="noreferrer"><img align="center" alt="REST API" height="35" width="35" src="src/assets/readme/REST-API.png" /></a>
   <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img align="center" alt="Git" height="35" width="45" src="src/assets/readme/Git.svg" /></a>
-  <a href="https://scrum.org" target="_blank" rel="noreferrer"><img align="center" alt="Scrum" height="35" width="45" src="src/assets/readme/Scrum.png" /></a>
+  <a href="https://scrum.org" target="_blank" rel="noreferrer"><img align="center" alt="Scrum" height="35" width="35" src="src/assets/readme/Scrum.png" /></a>
   <a href="https://dribbble.com" target="_blank" rel="noreferrer"><img align="center" alt="UI / UX" height="35" width="45" src="src/assets/readme/UI-UX.svg" /></a>
   <a href="https://adobe.com/products/xd" target="_blank" rel="noreferrer"><img align="center" alt="Adobe XD" height="35" width="45" src="src/assets/readme/Adobe-XD.svg" /></a>
   <a href="https://adobe.com/products/photoshop" target="_blank" rel="noreferrer"><img align="center" alt="Photoshop" height="35" width="45" src="src/assets/readme/Photoshop.svg" /></a>
