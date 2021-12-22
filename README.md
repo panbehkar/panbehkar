@@ -1,25 +1,6 @@
-<style>
-  h1,
-  h3 {
-    border: 0;
-  }
-  a[title$="-icon"] {
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-  }
-  a[title$="-icon"] img {
-    width: 100%;
-    height: auto;
-  }
-</style>
+<h1 align="center">Hi 👋, I'm Abolfazl Panbehkar</h1>
 
-<h1 style="border: 0; text-align: center;">Hi 👋, I'm Abolfazl Panbehkar</h1>
-
-### A passionate frontend developer 🤩😎
+<h3 align="center">A passionate frontend developer 🤩😎</h3>
 
 - 🌱 I'm always **learning**
 
@@ -29,11 +10,22 @@
 
 - 📫 How to reach me **abolfazl.panbehkar@gmail.com**
 
-### Connect with me:
-
-<a href="https://linkedin.com/in/abolfazl-panbehkar" style="width: 35px; height: 35px; margin: 5px; display: inline-block;">
-<img alt="Linkedin" src="src/assets/readme/Linkedin.svg" style="width: 100%; height: auto;" />
-</a>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a
+    href="https://linkedin.com/in/abolfazl-panbehkar"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img
+      align="center"
+      src="src/assets/readme/Linkedin.svg"
+      alt="Linkedin"
+      height="30"
+      width="40"
+    />
+  </a>
+</p>
 
 [![Linkedin](src/assets/readme/Linkedin.svg)](https://linkedin.com/in/abolfazl-panbehkar "Linkedin-icon")
 [![Stack Overflow](src/assets/readme/StackOverflow.svg)](https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile "Stack Overflow-icon")
