@@ -2,34 +2,62 @@
 
 <h3 align="center">A passionate frontend developer 🤩😎</h3>
 
-- 🌱 I'm always **learning**
-
-- 📝 Read my last article [5 Practical CSS variables tricks and tips](https://panbehkar.com/blog/5-practical-css-variables-tricks-and-tips)
-
-- 💼 Know about my experiences [https://panbehkar.com/about](https://panbehkar.com/about)
-
-- 📫 How to reach me **abolfazl.panbehkar@gmail.com**
+<ul>
+  <li>🌱 I'm always <b>learning</b></li>
+  <li>
+    📝 Read my last article
+    <a
+      href="https://panbehkar.com/blog/5-practical-css-variables-tricks-and-tips"
+      target="_blank"
+    >
+      5 Practical CSS variables tricks and tips
+    </a>
+  </li>
+  <li>
+    💼 Know about my experiences
+    <a href="https://panbehkar.com/about" target="_blank"> About me </a>
+  </li>
+  <li>
+    📫 How to reach me
+    <a href="mailto:abolfazl.panbehkar@gmail.com" target="_blank">
+      abolfazl.panbehkar@gmail.com
+    </a>
+  </li>
+</ul>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a
-    href="https://linkedin.com/in/abolfazl-panbehkar"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <a href="https://linkedin.com/in/abolfazl-panbehkar" target="_blank">
     <img
       align="center"
       src="src/assets/readme/Linkedin.svg"
       alt="Linkedin"
-      height="30"
-      width="40"
+      height="35"
+      width="45"
+    />
+  </a>
+  <a
+    href="https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile"
+    target="_blank"
+  >
+    <img
+      align="center"
+      src="src/assets/readme/StackOverflow.svg"
+      alt="Stack Overflow"
+      height="35"
+      width="45"
+    />
+  </a>
+  <a href="skype:live:.cid.b344bb6e5480cbf7?userinfo" target="_blank">
+    <img
+      align="center"
+      src="src/assets/readme/Skype.svg"
+      alt="Skype"
+      height="35"
+      width="45"
     />
   </a>
 </p>
-
-[![Linkedin](src/assets/readme/Linkedin.svg)](https://linkedin.com/in/abolfazl-panbehkar "Linkedin-icon")
-[![Stack Overflow](src/assets/readme/StackOverflow.svg)](https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile "Stack Overflow-icon")
-[![Skype](src/assets/readme/Skype.svg)](https://join.skype.com/invite/EBdpwueVsrJ4 "Skype-icon")
 
 ### Languages and Tools:
 
