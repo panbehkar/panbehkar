@@ -17,7 +17,7 @@
   }
 </style>
 
-# Hi 👋, I'm Abolfazl Panbehkar
+<h1 style="border: 0; text-align: center;">Hi 👋, I'm Abolfazl Panbehkar</h1>
 
 ### A passionate frontend developer 🤩😎
 
@@ -30,6 +30,10 @@
 - 📫 How to reach me **abolfazl.panbehkar@gmail.com**
 
 ### Connect with me:
+
+<a href="https://linkedin.com/in/abolfazl-panbehkar" style="width: 35px; height: 35px; margin: 5px; display: inline-block;">
+<img alt="Linkedin" src="src/assets/readme/Linkedin.svg" style="width: 100%; height: auto;" />
+</a>
 
 [![Linkedin](src/assets/readme/Linkedin.svg)](https://linkedin.com/in/abolfazl-panbehkar "Linkedin-icon")
 [![Stack Overflow](src/assets/readme/StackOverflow.svg)](https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile "Stack Overflow-icon")
