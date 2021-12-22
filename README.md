@@ -4,31 +4,17 @@
 
 <ul>
   <li>🌱 I'm always <b>learning</b></li>
-  <li>
-    📝 Read my last article
-    <a href="https://panbehkar.com/blog/5-practical-css-variables-tricks-and-tips" target="_blank">
-      5 Practical CSS variables tricks and tips
-    </a>
-  </li>
-  <li>
-    💼 Know about my experiences
-    <a href="https://panbehkar.com/about" target="_blank"> About me </a>
-  </li>
+  <li>📝 Read my last article <a href="https://panbehkar.com/blog/5-practical-css-variables-tricks-and-tips" target="_blank">5 Practical CSS variables tricks and tips</a></li>
+  <li>💼 Know about my experiences <a href="https://panbehkar.com/about" target="_blank"> About me</a></li>
   <li>📫 How to reach me <b>abolfazl.panbehkar@gmail.com</b></li>
 </ul>
 
 <h3 align="left">Connect with me:</h3>
 
 <p align="left">
-  <a href="https://linkedin.com/in/abolfazl-panbehkar" target="_blank">
-    <img align="center" alt="Linkedin" height="35" width="45" src="src/assets/readme/Linkedin.svg" />
-  </a>
-  <a href="https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile" target="_blank">
-    <img align="center" alt="Stack Overflow" height="35" width="45" src="src/assets/readme/StackOverflow.svg" />
-  </a>
-  <a href="https://join.skype.com/invite/EBdpwueVsrJ4" target="_blank">
-    <img align="center" alt="Skype" height="35" width="45" src="src/assets/readme/Skype.svg" />
-  </a>
+  <a href="https://linkedin.com/in/abolfazl-panbehkar" target="_blank"><img align="center" alt="Linkedin" height="35" width="45" src="src/assets/readme/Linkedin.svg" /></a>
+  <a href="https://stackoverflow.com/users/10436219/abolfazl-panbehkar?tab=profile" target="_blank"><img align="center" alt="Stack Overflow" height="35" width="45" src="src/assets/readme/StackOverflow.svg" /></a>
+  <a href="https://join.skype.com/invite/EBdpwueVsrJ4" target="_blank"><img align="center" alt="Skype" height="35" width="45" src="src/assets/readme/Skype.svg" /></a>
 </p>
 
 ### Languages and Tools:
