@@ -31,8 +31,8 @@
   <a href="https://reactjs.org" target="_blank" rel="noreferrer"><img align="center" alt="React" height="35" width="45" src="src/assets/readme/React.svg" /></a>
   <a href="https://redux.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Redux" height="35" width="45" src="src/assets/readme/Redux.svg" /></a>
   <a href="https://gatsbyjs.com" target="_blank" rel="noreferrer"><img align="center" alt="Gatsby" height="35" width="45" src="src/assets/readme/Gatsby.svg" /></a>
-   <a href="https://axios-http.com" target="_blank" rel="noreferrer"><img align="center" alt="REST API" height="35" width="35" src="src/assets/readme/REST-API.png" /></a>
-    <a href="https://react-query.tanstack.com" target="_blank" rel="noreferrer"><img align="center" alt="React Query" height="35" width="35" src="src/assets/readme/React-Query.svg" /></a>
+  <a href="https://axios-http.com" target="_blank" rel="noreferrer"><img align="center" alt="REST API" height="35" width="35" src="src/assets/readme/REST-API.png" /></a>
+  <a href="https://react-query.tanstack.com" target="_blank" rel="noreferrer"><img align="center" alt="React Query" height="35" width="45" src="src/assets/readme/React-Query.svg" /></a>
   <a href="https://webpack.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Webpack" height="35" width="45" src="src/assets/readme/Webpack.svg" /></a>
   <a href="https://storybook.js.org" target="_blank" rel="noreferrer"><img align="center" alt="Storybook" height="35" width="45" src="src/assets/readme/Storybook.svg" /></a>
   <a href="https://jestjs.io" target="_blank" rel="noreferrer"><img align="center" alt="Jest" height="35" width="45" src="src/assets/readme/Jest.svg" /></a>
