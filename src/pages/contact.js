@@ -34,7 +34,7 @@ const Contact = () => {
             <ul className="social">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/abolfazl-panbehkar"
+                  href="https://www.linkedin.com/in/panbehkar"
                   target="_blank"
                   rel="noreferrer"
                 >
