@@ -24,7 +24,7 @@ const Contact = () => {
             <ul className="personal">
               <li>
                 <i className="icon-phone"></i>
-                <span>+49 16096207110</span>
+                <span>+49 160 96207110</span>
               </li>
               <li>
                 <i className="icon-envelope"></i>
