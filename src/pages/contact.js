@@ -24,7 +24,7 @@ const Contact = () => {
             <ul className="personal">
               <li>
                 <i className="icon-phone"></i>
-                <span>(+98) 936 454 9084</span>
+                <span>+49 16096207110</span>
               </li>
               <li>
                 <i className="icon-envelope"></i>
@@ -39,15 +39,6 @@ const Contact = () => {
                   rel="noreferrer"
                 >
                   <i className="icon-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="skype:live:.cid.b344bb6e5480cbf7?userinfo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="icon-skype"></i>
                 </a>
               </li>
               <li>

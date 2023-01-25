@@ -20,6 +20,7 @@ export const query = graphql`
           company
           link
           date
+          column
         }
       }
     }
@@ -51,7 +52,7 @@ const About = ({ data }) => {
         </label>
         <div className="row">
           {experience.map(exp => (
-            <div className="column-2" key={exp.company}>
+            <div className={"column-" + exp.column} key={exp.company}>
               <div className="box">
                 <span className="position">{exp.position}</span>
                 <span className="company">{exp.company}</span>
