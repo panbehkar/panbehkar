@@ -3,8 +3,8 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `Abolfazl Panbehkar`,
-    description: `A creative Front-End Developer with 4+ years of experience in the design and development of more than 10 admin panels within professional teams. Coding with a focus on Best Practices and simplicity to improve reusability and Developer Experience. Eager to keep my knowledge updated and learn new technologies.`,
-    keywords: `abolfazl panbehkar, abolfazl, panbehkar, front-end developer, frontend developer, front-end, frontend, developer`,
+    description: `Creative frontend developer with 7+ years of experience in the design and development of over 10 admin panels as a part of cross-functional teams. Proficient in translating UI designs to pixel-perfect codes with a keen eye for details using cutting-edge technologies.`,
+    keywords: `abolfazl panbehkar, abolfazl, panbehkar, senior frontend developer, frontend developer, senior, frontend, developer`,
     author: `Abolfazl Panbehkar`,
     siteUrl: `https://panbehkar.com`,
   },
@@ -49,7 +49,7 @@ module.exports = {
       options: {
         name: `Abolfazl Panbehkar`,
         short_name: `Panbehkar`,
-        description: `A creative Front-End Developer with 4+ years of experience in the design and development of more than 10 admin panels within professional teams. Coding with a focus on Best Practices and simplicity to improve reusability and Developer Experience. Eager to keep my knowledge updated and learn new technologies.`,
+        description: `Creative frontend developer with 7+ years of experience in the design and development of over 10 admin panels as a part of cross-functional teams. Proficient in translating UI designs to pixel-perfect codes with a keen eye for details using cutting-edge technologies.`,
         start_url: `/`,
         background_color: `#57f2cc`,
         theme_color: `#4596fb`,

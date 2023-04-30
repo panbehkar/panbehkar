@@ -14,7 +14,7 @@ const Home = () => {
           <label htmlFor="abolfazl-panbehkar">
             I'm <strong>Abolfazl Panbehkar</strong>
           </label>
-          <label htmlFor="frontend-developer">Frontend Developer</label>
+          <label htmlFor="frontend-developer">Senior Frontend Developer</label>
         </div>
         <div className="avatar">
           <StaticImage
