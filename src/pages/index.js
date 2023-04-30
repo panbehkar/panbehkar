@@ -7,14 +7,16 @@ import Seo from "../components/seo"
 const Home = () => {
   return (
     <Layout>
-      <Seo title="Frontend Developer" />
+      <Seo title="Senior Frontend Developer" />
       <div className="home">
         <div className="bio">
           <label htmlFor="hello">Hello</label>
           <label htmlFor="abolfazl-panbehkar">
             I'm <strong>Abolfazl Panbehkar</strong>
           </label>
-          <label htmlFor="frontend-developer">Senior Frontend Developer</label>
+          <label htmlFor="senior-frontend-developer">
+            Senior Frontend Developer
+          </label>
         </div>
         <div className="avatar">
           <StaticImage
