@@ -69,7 +69,7 @@ const About = ({ data }) => {
             <div className="box">
               <span className="position">IT Engineering</span>
               <span className="company">University of Mazandaran</span>
-              <span className="date">09.2010 – 02.2015</span>
+              <span className="date">Sep 2010 – Feb 2015</span>
             </div>
           </div>
         </div>
